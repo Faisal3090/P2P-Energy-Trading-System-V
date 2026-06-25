@@ -142,6 +142,7 @@ BATTERY_MIN_DISPATCH_KW: float = 25.0  # 10% of power rating
 
 DEFAULT_GRID_BUY_RATE: float = 8.15   # Rs/kWh — agent buys from grid
 DEFAULT_GRID_SELL_RATE: float = 3.56   # Rs/kWh — agent sells to grid
+MAX_GRID_RATE: float = 10.0            # Rs/kWh — normalisation upper bound for grid rates
 
 # ---------------------------------------------------------------------------
 # Reward constants (Module 5 — DO NOT CHANGE equations)

@@ -38,7 +38,3 @@ python -m p2p_energy_trading.training.train --config config/training_config.yaml
 ```bash
 python -m p2p_energy_trading.evaluation.evaluate --checkpoint checkpoints/best_model/
 ```
-
-## License
-
-MIT License
